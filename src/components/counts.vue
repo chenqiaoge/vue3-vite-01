@@ -1,7 +1,9 @@
 <template>
-  <h1>{{state.count}} * 2={{double}}</h1>
-  <h2>{{num}}</h2>
-  <button @click="add">累加</button>
+  <div>
+    <h1>{{state.count}} * 2={{double}}</h1>
+    <h2>{{num}}</h2>
+    <button @click="add">累加</button>
+  </div>
 </template>
 <script>
 import { ref,reactive, computed,onMounted } from 'vue'
